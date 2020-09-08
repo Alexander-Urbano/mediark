@@ -1,8 +1,0 @@
----
-- name: Deploy Mediark Server
-  hosts: all
-  vars:
-    app_user: mediark
-  roles:
-    - system
-    - app
