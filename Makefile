@@ -47,13 +47,3 @@ update:
 	git reset --hard
 	git checkout master
 	git pull --all
-
-install-all:
-pip install -r requirements.txt
-
-uninstall-all:
-	pip freeze | xargs pip uninstall -y
-
-upgrade:
-	pip-review --local --auto
-	pip freeze > requirements.txt
