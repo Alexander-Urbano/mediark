@@ -2,7 +2,8 @@
 
 CONTAINER="mediark"
 PLAYBOOK="setup/local.sh"
-REPOSITORY="https://github.com/knowark/mediark.git"
+#REPOSITORY="https://github.com/knowark/mediark.git"
+REPOSITORY="https://github.com/Alexander-Urbano/mediark"
 REPOSITORY_PATH=$PWD
 
 echo "Deploying LXD container..."
